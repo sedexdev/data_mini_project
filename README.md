@@ -4,7 +4,7 @@
 
 This sample project is intended to demonstrate a working understanding of the fundamentals of
 creating data-driven applications in Python. The project uses modern tooling and workflows to
-design and test a data application, and and deploy it to the cloud.
+design and test a data application, and then deploy it to the cloud.
 
 The sample datasets used represent global levels of education on a national basis.
 
@@ -44,28 +44,20 @@ npm install  # or pip install -r requirements.txt
 npm start     # or python app.py
 ```
 
-## ⚙️ Configuration
-
-> If your app uses environment variables or config files, describe them here.
-
-```env
-PORT=3000
-DB_URL=mongodb://localhost:27017/mydb
-SECRET_KEY=your-secret-key
-```
-
 ## 📂 Project Structure
 
 ```
 your-repo-name/
 │
+├── .github/            # GitHub workflows and issue templates
+├── data/               # Data files
+├── docs/               # Documentation
 ├── src/                # Source files
 ├── tests/              # Unit and integration tests
-├── docs/               # Documentation
-├── .github/            # GitHub workflows and issue templates
-├── .env.example        # Sample environment config
-├── Dockerfile
-└── README.md
+├── .gitignore          # Ignore file
+├── Dockerfile          # Docker container config
+├── LICENSE             # MIT license file
+└── README.md           # This document
 ```
 
 ## 🧪 Running Tests
