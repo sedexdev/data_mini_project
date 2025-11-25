@@ -34,14 +34,16 @@ The sample datasets used represent global levels of education on a national basi
 
 ```bash
 # Clone the repository
-git clone https://github.com/sedexdev/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/sedexdev/data_mini_project.git
+cd data_mini_project
 
-# Install dependencies
-npm install  # or pip install -r requirements.txt
+# use your preferred virtual environment - I'm using virtualenv
+virtualenv venv
+source venv/bin/activate
+pip install -r src/requirements.txt
 
 # Run the app
-npm start     # or python app.py
+TBC...
 ```
 
 ## 📂 Project Structure
